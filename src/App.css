@@ -1,4 +1,68 @@
-.App {
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 3rem;
+  align-items: center;
+}
+.nav input,
+::placeholder {
+  color: white;
+  padding: 10px;
+}
+
+.heading {
+  font-size: 2rem;
+}
+
+.list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  margin-top: 1rem;
+}
+.list img {
+  border-radius: 2rem;
+  width: 200px;
+}
+.list h3 {
+  text-align: center;
+}
+.image {
+  border: 2px solid #ffffffde;
+  padding: 1rem;
+  border-radius: 2rem;
+  position: relative;
+  margin-top: 20px;
+}
+.list li {
+  position: relative;
+}
+.user-id {
+  background-color: #ffffff;
+  /* display: inline; */
+  width: 20px;
+  color: #242424;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  right: -15px;
+  top: 5px;
+}
+.edge-case .message {
+  text-align: center;
+  border: 2px solid #ffffff;
+  width: max-content;
+  margin-left: 40%;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  background-color: rgb(141, 10, 10);
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +99,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
